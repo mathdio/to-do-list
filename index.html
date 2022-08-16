@@ -19,16 +19,27 @@
     </h1>
   </header>
   <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
-  <input type="text" id="texto-tarefa">
-  <button id="criar-tarefa" class="btn btn-primary"><i class="fa-solid fa-list-ol"></i> Criar tarefa</button>
-  <button id="apaga-tudo" class="btn btn-danger"><i class="fa-solid fa-eraser"></i> Apagar lista</button>
-  <button id="remover-finalizados" class="btn btn-warning"><i class="fa-solid fa-minus"></i> Remover finalizadas</button>
-  <button id="salvar-tarefas" class="btn btn-success" disabled><i class="fa-solid fa-check"></i> Salvar lista</button>
-  <button id="remover-selecionado" class="btn btn-warning"><i class="fa-solid fa-xmark"></i> Remover selecionado</button>
-  <button id="mover-cima" class="btn btn-info"><i class="fa-solid fa-arrow-up"></i> Mover para cima</button>
-  <button id="mover-baixo" class="btn btn-info"><i class="fa-solid fa-arrow-down"></i> Mover para baixo</button> 
-  <ol id="lista-tarefas"></ol>
-  
+  <div id="application-container">
+    <div id="input-container" class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="write a task" id="texto-tarefa">
+      <button id="criar-tarefa" class="btn btn-primary"><i class="fa-solid fa-list-ol"></i> Criar tarefa</button>
+      <button id="apaga-tudo" class="btn btn-danger"><i class="fa-solid fa-eraser"></i> Apagar lista</button>
+    </div>
+    <div id="list-container">
+      <div id="ol-container">
+        <ol id="lista-tarefas" class="list-group list-group-flush"></ol>
+      </div>
+      <div id="aside-buttons">
+        <button id="remover-finalizados" class="btn btn-warning"><i class="fa-solid fa-minus"></i> Remover finalizadas</button>
+        <button id="salvar-tarefas" class="btn btn-success" disabled><i class="fa-solid fa-check"></i> Salvar lista</button>
+        <button id="remover-selecionado" class="btn btn-warning"><i class="fa-solid fa-xmark"></i> Remover selecionado</button>
+        <button id="mover-cima" class="btn btn-info"><i class="fa-solid fa-arrow-up"></i> Mover para cima</button>
+        <button id="mover-baixo" class="btn btn-info"><i class="fa-solid fa-arrow-down"></i> Mover para baixo</button> 
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
+  <footer>Página desenvolvida por Matheus Diógenes</footer>
 </body>
 </html>

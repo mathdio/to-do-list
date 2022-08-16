@@ -59,7 +59,7 @@ removeSelected();
 function createTask() {
   createTaskButton.addEventListener('click', () => {
     const li = document.createElement('li');
-    li.className = 'task';
+    li.classList.add('task', 'list-group-item');
     li.innerText = inputCreateTask.value;
     ol.appendChild(li);
     inputCreateTask.value = '';
