@@ -18,7 +18,9 @@
       TO DO LIST <i class="fa-solid fa-list-check"></i>
     </h1>
   </header>
+  <p>Click an item to select it</p>
   <p id="funcionamento">Double click an item to mark it</p>
+  <p>Reload the page to restore the last saved list if you erased it accidentally</p>
   <div id="application-container">
     <div id="input-container" class="input-group mb-3">
       <input type="text" class="form-control" placeholder="write a task" id="texto-tarefa">
@@ -30,16 +32,16 @@
         <ol id="lista-tarefas" class="list-group list-group-numbered"></ol>
       <!-- </div> -->
       <div id="aside-buttons">
-        <button id="salvar-tarefas" class="btn btn-success" disabled><i class="fa-solid fa-check"></i> Salvar lista</button>
-        <button id="remover-finalizados" class="btn btn-warning"><i class="fa-solid fa-minus"></i> Remover finalizadas</button>
-        <button id="remover-selecionado" class="btn btn-warning"><i class="fa-solid fa-xmark"></i> Remover selecionado</button>
-        <button id="mover-cima" class="btn btn-info"><i class="fa-solid fa-arrow-up"></i> Mover para cima</button>
-        <button id="mover-baixo" class="btn btn-info"><i class="fa-solid fa-arrow-down"></i> Mover para baixo</button> 
+        <button id="salvar-tarefas" class="btn btn-success" disabled><i class="fa-solid fa-check"></i> Save list</button>
+        <button id="remover-finalizados" class="btn btn-warning"><i class="fa-solid fa-minus"></i> Remove marked</button>
+        <button id="remover-selecionado" class="btn btn-warning"><i class="fa-solid fa-xmark"></i> Remove selected</button>
+        <button id="mover-cima" class="btn btn-info"><i class="fa-solid fa-arrow-up"></i> Move up</button>
+        <button id="mover-baixo" class="btn btn-info"><i class="fa-solid fa-arrow-down"></i> Move down</button> 
       </div>
     </div>
   </div>
+  <footer><a href="https://github.com/mathdio" target="_blank">Developed by Matheus Diógenes</a></footer>
 
   <script src="script.js"></script>
-  <footer>Página desenvolvida por <a href="https://github.com/mathdio" target="_blank">Matheus Diógenes</a></footer>
 </body>
 </html>

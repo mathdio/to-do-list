@@ -13,7 +13,7 @@ function moveUp() {
     let selectedTask;
     const tasksList = document.querySelectorAll('.task');
     for (let i = 0; i < tasksList.length; i += 1) {
-      if (tasksList[i].style.backgroundColor === 'gray'
+      if (tasksList[i].style.backgroundColor === 'aqua'
       && tasksList[i] !== ol.firstElementChild) {
         selectedTask = tasksList[i];
         const aux = selectedTask.previousSibling;
@@ -31,7 +31,7 @@ function moveDown() {
     let selectedTask;
     const tasksList = document.querySelectorAll('.task');
     for (let i = 0; i < tasksList.length; i += 1) {
-      if (tasksList[i].style.backgroundColor === 'gray' && tasksList[i] !== ol.lastElementChild) {
+      if (tasksList[i].style.backgroundColor === 'aqua' && tasksList[i] !== ol.lastElementChild) {
         selectedTask = tasksList[i];
         const aux = selectedTask.nextSibling;
         ol.replaceChild(selectedTask, selectedTask.nextSibling);
@@ -47,7 +47,7 @@ function removeSelected() {
   removeSelectedButton.addEventListener('click', () => {
     const tasksList = document.querySelectorAll('.task');
     for (let i = 0; i < tasksList.length; i += 1) {
-      if (tasksList[i].style.backgroundColor === 'gray') {
+      if (tasksList[i].style.backgroundColor === 'aqua') {
         tasksList[i].remove();
       }
     }
@@ -75,7 +75,7 @@ function changeColor() {
       tasksList[i].style.backgroundColor = '';
     }
     ol.style.backgroundColor = '';
-    e.target.style.backgroundColor = 'pink';
+    e.target.style.backgroundColor = 'aqua';
     if (e.target === ol) {
       ol.style.backgroundColor = '';
     }
@@ -138,7 +138,6 @@ function localStorageNotNull() {
     const li = document.createElement('li');
     li.innerText = savedList[index].text;
     const classesValues = Object.values(savedList[index].class);
-    console.log(classesValues);
     for (let index2 = 0; index2 < classesValues.length; index2 += 1) {
       li.classList.add(classesValues[index2]);
     }

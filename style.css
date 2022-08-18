@@ -38,6 +38,7 @@ header {
   padding: 20px;
   border-radius: 10px;
   min-height: 500px;
+  margin-bottom: 25px;
 }
 
 /* #ol-container {
@@ -85,11 +86,9 @@ footer {
   background-color: #232020;
   display: flex;
   justify-content: center;
-  align-content: flex-end;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  margin-bottom: 0px;
 }
 
 a {
