@@ -15,10 +15,6 @@ header {
   margin-top: 20px;
 }
 
-li {
-  /* width: 40%; */
-}
-
 #application-container {
   display: flex;
   align-items: center;
@@ -37,12 +33,20 @@ li {
   width: 40%;
   padding: 20px;
   border-radius: 10px;
+  min-height: 500px;
 }
 
-#ol-container {
+/* #ol-container {
+  border: solid 1px red;
   display: flex;
   justify-content: center;
   width: 55%;
+} */
+
+ol {
+  width: 65%;
+  word-wrap: break-word;
+  border: 1px solid red;
 }
 
 #aside-buttons {
