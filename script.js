@@ -74,15 +74,23 @@ function changeColor() {
     for (let i = 0; i < tasksList.length; i += 1) {
       tasksList[i].style.backgroundColor = '';
     }
+    ol.style.backgroundColor = '';
     e.target.style.backgroundColor = 'gray';
+    if (e.target === ol) {
+      ol.style.backgroundColor = '';
+    }
   });
 }
 changeColor();
 
 function completedTask() {
   ol.addEventListener('dblclick', (e) => {
-    e.target.classList.toggle('completed');
-    saveListButton.disabled = false;
+    if (e.target === ol) {
+      e.target.classList.remove('completed');
+    } else {
+      e.target.classList.toggle('completed');
+      saveListButton.disabled = false;
+    }
   });
 }
 completedTask();
