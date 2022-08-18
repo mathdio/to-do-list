@@ -75,7 +75,7 @@ function changeColor() {
       tasksList[i].style.backgroundColor = '';
     }
     ol.style.backgroundColor = '';
-    e.target.style.backgroundColor = 'gray';
+    e.target.style.backgroundColor = 'pink';
     if (e.target === ol) {
       ol.style.backgroundColor = '';
     }

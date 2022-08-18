@@ -9,6 +9,10 @@ body {
   color: antiquewhite;
 }
 
+p {
+  text-align: center;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -43,16 +47,25 @@ header {
   width: 55%;
 } */
 
+/* li {
+  border-radius: 5px;  
+} */
+
 ol {
   width: 65%;
   word-wrap: break-word;
-  border: 1px solid red;
+  border-radius: 15px;
+  /* border: 1px solid red; */
 }
 
 #aside-buttons {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+#aside-buttons button {
+  margin: 5px;
 }
 
 .selected {
@@ -77,4 +90,13 @@ footer {
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+a:hover {
+  color: antiquewhite;
 }
