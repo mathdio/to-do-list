@@ -27,33 +27,22 @@ header {
 
 #input-container {
   display: flex;
-  width: 40%;
+  width: 60%;
 }
 
 #list-container {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
-  width: 40%;
+  width: 60%;
   padding: 20px;
   border-radius: 10px;
   min-height: 500px;
   margin-bottom: 25px;
 }
 
-/* #ol-container {
-  border: solid 1px red;
-  display: flex;
-  justify-content: center;
-  width: 55%;
-} */
-
-/* li {
-  border-radius: 5px;  
-} */
-
 ol {
-  width: 65%;
+  width: 75%;
   word-wrap: break-word;
   border-radius: 15px;
   /* border: 1px solid red; */
@@ -98,4 +87,14 @@ a {
 
 a:hover {
   color: antiquewhite;
+}
+
+@media screen and (max-width: 1000px) {
+  #input-container {
+    width: 99%;
+  }
+
+  #list-container {
+    width: 99% ;
+  }
 }
