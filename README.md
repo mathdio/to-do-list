@@ -13,11 +13,4 @@ In this application the user can add a task to a empty list, mark the task as do
 </p>
 
 ## 👨‍💻 How to run the app
-### Install the dependencies
-```
-npm install
-``` 
-### Run the app
-```
-npm start
-``` 
+Run the `index.html` arquive in your favorite web browser.
