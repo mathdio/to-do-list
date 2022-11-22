@@ -1,5 +1,5 @@
 # 📝 To Do List
-A to Do List webpage developed as a [Trybe](https://www.betrybe.com/) Project
+A to do list webpage developed as a [Trybe](https://www.betrybe.com/) Project
 
 ## 💻 About the project
 In this application the user can add a task to a empty list, mark the task as done, and use the side buttons to delete or move up or down the tasks. There is also a button that allows the user to save the entire list.
