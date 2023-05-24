@@ -4,6 +4,8 @@ A to do list webpage developed as a [Trybe](https://www.betrybe.com/) Project
 ## 💻 About the project
 In this application the user can add a task to a empty list, mark the task as done, and use the side buttons to delete or move up or down the tasks. There is also a button that allows the user to save the entire list.
 
+Application's deploy: https://to-do-list-five-mauve.vercel.app
+
 ## 🛠️ Built with
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
